@@ -16,3 +16,5 @@ with sync_playwright() as playwright:
     page.goto('https://example.com')  # Перейти на страницу, чтобы что-то сделать
     page.wait_for_timeout(3000)  # Ожидание 3 секунды
     browser.close()
+
+
