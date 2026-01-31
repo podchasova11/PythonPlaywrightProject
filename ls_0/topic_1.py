@@ -8,7 +8,6 @@ page.wait_for_timeout(3000)
 browser.close()
 playwright.stop()
 
-
 with sync_playwright() as playwright:
     # По умолчанию headless=True, но мы ставим False, чтобы видеть браузер
     browser = playwright.chromium.launch(headless=False)
